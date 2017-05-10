@@ -37,30 +37,6 @@
 </div>
     
   
-      <?php
     
-    
-  //  $sqll = $db->query("SELECT * From `endpoints` sum(source) as sourceid group by source LIMIT 100");
-
- 
-//$sql = $db->query("SELECT source,COUNT(*) FROM `endpoints` GROUP BY source LIMIT 100");
-//$sql = $db->query("SELECT source,COUNT(*) FROM `endpoints` where source LIKE '%lodstats%' ");
-
-
-
-
-
- //   while($satir= mysqli_fetch_array($sql))
-    //{
-   //     $sourceterm1 = $satir["source"];
-   //     echo $satir["source"] ." ( ". $satir["COUNT(*)"] ." )-<a target='_blank' href='/search3/view.php?ssearch=1&source=". $sourceterm1 ."'>  GO </a><br>";
-   //     
-  //  }
-
- 
-    
-    
-    
-    ?>
 </body>
 </html>

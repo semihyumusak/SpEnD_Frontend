@@ -28,7 +28,6 @@
 <?php $SourceTerm = $_GET['source'] ?>
 <!-- veritabanı bağlantısı-->
 <?php
-//$query = $db->query("SELECT * FROM endpoints WHERE endpointUrl='$SearchTerm' LIMIT 100");
 $query = $db->query("SELECT * FROM  `endpoints` 
 WHERE endpointUrl LIKE  '%$SearchTerm%'");
 
@@ -70,9 +69,7 @@ WHERE endpointUrl LIKE  '%$SearchTerm%'");
      if (mysqli_num_rows($query2)>0){
       while($kayit=mysqli_fetch_array($query2)){ 
                 
-             //   echo '<div class="panel panel-success">';
-              //  echo '<div class="panel-body">';
-                
+               
               echo '<div data-role="main" class="ui-content">';
     echo ' <div data-role="collapsible">';
       echo ' <h1>';
@@ -111,8 +108,7 @@ WHERE endpointUrl LIKE  '%$SearchTerm%'");
 
 
         
-    //    echo '</div></div>';
-
+   
       }
     }else{
       echo 'Eşleşen Kayıt Yok.';
