@@ -21,7 +21,7 @@
  <div class="container">
 
  
-   <center>  <h1><img src="logo.jpg"></h1></center>
+   <center>  <h1><img src="logo.png"></h1></center>
    
 
 <form form action="view.php" method="GET">
@@ -37,6 +37,30 @@
 </div>
     
   
+      <?php
     
+    
+  //  $sqll = $db->query("SELECT * From `endpoints` sum(source) as sourceid group by source LIMIT 100");
+
+ 
+//$sql = $db->query("SELECT source,COUNT(*) FROM `endpoints` GROUP BY source LIMIT 100");
+//$sql = $db->query("SELECT source,COUNT(*) FROM `endpoints` where source LIKE '%lodstats%' ");
+
+
+
+
+
+ //   while($satir= mysqli_fetch_array($sql))
+    //{
+   //     $sourceterm1 = $satir["source"];
+   //     echo $satir["source"] ." ( ". $satir["COUNT(*)"] ." )-<a target='_blank' href='/search3/view.php?ssearch=1&source=". $sourceterm1 ."'>  GO </a><br>";
+   //     
+  //  }
+
+ 
+    
+    
+    
+    ?>
 </body>
 </html>
